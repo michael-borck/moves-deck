@@ -17,6 +17,9 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15}
 .kicker.dark{color:#8A6A1F}.kicker.dark::before{background:#8A6A1F}
 .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
 .hero{position:relative;background:var(--bg);color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background:url('assets/art/banner.png') center/cover;opacity:.42}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(16,20,18,.96) 0%,rgba(16,20,18,.7) 48%,rgba(16,20,18,.25) 100%)}
+.hero .wrap{position:relative;z-index:1}
 .hero .wrap{position:relative;padding:110px 24px 120px;max-width:1060px}
 .hero h1{font-size:clamp(30px,4.6vw,46px);margin:14px 0 0}
 .hero h1 em{font-style:normal;color:var(--gold)}
@@ -42,6 +45,12 @@ section.alt{background:var(--paper)}
 .step .n{font-family:var(--serif);font-size:30px;color:var(--gold);font-weight:700}
 .step h3{font-size:16px;margin:6px 0 6px}
 .step p{font-size:13.5px;color:#4B5157}
+.split{display:grid;grid-template-columns:minmax(240px,380px) 1fr;gap:48px;align-items:center;margin-top:44px}
+.split img{width:100%;border-radius:10px;display:block;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.split h3{font-size:19px;margin:0 0 10px}
+.split p{font-size:14.5px;color:#3B3F46;margin:0 0 12px}
+.split .facts{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;color:var(--faint);line-height:2;text-transform:uppercase}
+@media(max-width:800px){.split{grid-template-columns:1fr}}
 .dl{margin-top:40px;border:1px solid #D8D4CA;border-radius:10px;overflow:hidden}
 .dl a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:16px 22px;text-decoration:none;color:var(--ink);border-bottom:1px solid #E4E1D8}
 .dl a:last-child{border-bottom:0}
@@ -73,6 +82,21 @@ footer .tag{color:var(--gold)}
 <h2 class="lead">Deal it. <em>Work it. Commit to three.</em></h2>
 <div class="pair"><div class="step"><div class="n">1</div><h3>Deal the sections</h3><p>One printed deck per table of three. Sort into already-do / should-do / nobody-does. The piles are the honest map.</p></div><div class="step"><div class="n">2</div><h3>Catch it, on paper</h3><p>Take one real AI draft per person and hunt its errors against the source, assistant closed. Then write the CHECK line that would have caught them.</p></div><div class="step"><div class="n">3</div><h3>Commit to three</h3><p>Two or three tasks, the first prompt for each, one checkpoint you will not skip — and one habit you will stop.</p></div></div>
 </div></section>
+<section>
+  <div class="wrap">
+    <div class="kicker dark">The printed deck</div>
+    <h2 class="lead">Also a boxed deck <em>for the table.</em></h2>
+    <div class="split">
+      <img src="assets/art/cover.png" alt="The Moves Deck box art: a worn workbench under a tungsten lamp, index cards and brass calipers">
+      <div>
+        <h3>Built for the week after the course</h3>
+        <p>Built for the week after the course</p>
+        <div class="facts">The deck runs as a working session: deal the sections, catch the errors in a real draft on paper, and leave with saved briefs carrying CHECK and NEVER lines. Card faces stay typographic on purpose — art lives on the box, the back and the wall. 36 cards · 7 sections · 93×67 mm · Free to print and share · not for resale</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="alt" id="download"><div class="wrap">
 <div class="kicker dark">Downloads</div>
 <h2 class="lead">Print it yourself. <em>That's the point.</em></h2>

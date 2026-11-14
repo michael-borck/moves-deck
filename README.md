@@ -24,9 +24,10 @@ members are new cards in that section, not new decks.
 | `moves-deck-36-print.html` | Print & cut. 6 A4 pages, 8 cards per sheet, cover card first. |
 | `moves-deck-guide.html` | One-page diagnostic. |
 | `moves-deck-desk-card.html` | Every card, every line — one A4 pin-up. |
+| `moves-deck-36-art.html` | Art edition for the boxed print run: portrait cards, tinted category vignettes. |
 | `fonts/` | Domine, Funnel Sans, Nanum Gothic Coding (SIL OFL). |
 
-Art identity pass (workbench/copper world) is the remaining pass.
+Art: `assets/art/` holds the workbench-brass identity (warm craftsman workbench at night, copper and oiled steel), generated with limn — prompts and sidecars in `assets/art/README.md`. Art edition included.
 
 ## Licence
 
