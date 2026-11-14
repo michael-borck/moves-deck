@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head><meta charset="UTF-8"><title>Desk card · The Moves Deck</title>
+<style>
+@font-face{font-family:'Domine';src:url('fonts/Domine.ttf')}
+@font-face{font-family:'Funnel Sans';src:url('fonts/FunnelSans.ttf')}
+@font-face{font-family:'Funnel Sans';src:url('fonts/FunnelSans-Italic.ttf');font-style:italic}
+@font-face{font-family:'Nanum Gothic Coding';src:url('fonts/NanumGothicCoding-Regular.ttf')}
+@font-face{font-family:'Nanum Gothic Coding';src:url('fonts/NanumGothicCoding-Bold.ttf');font-weight:700}
+:root{--bg:#22312b;--acc-g:#d9a05b;--ink:#1a1a1c;--dim:#4B5157;--faint:#8A8E96;--rule:#D8D4CA;--serif:'Domine',Georgia,serif;--sans:'Funnel Sans','Segoe UI',sans-serif;--mono:'Nanum Gothic Coding',monospace}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:var(--sans);font-size:9.6pt;line-height:1.42;color:var(--ink);background:#e8e6df}
+@media print{body{background:#fff}}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;display:flex;flex-direction:column;background:#fff;margin:6mm auto;box-shadow:0 1mm 4mm rgba(20,20,30,.18)}
+@media print{.page{margin:0;box-shadow:none}}
+.top{background:var(--bg);color:#fff;padding:8mm 12mm 6mm}
+.kicker{font-family:var(--mono);font-size:7.5pt;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--acc-g)}
+.kicker::before{content:"";display:inline-block;width:16pt;height:2pt;background:var(--acc-g);margin-right:6pt;vertical-align:middle}
+.top h1{font-family:var(--serif);font-size:20pt;margin-top:4pt}
+.top h1 em{font-style:normal;color:var(--acc-g)}
+.top p{margin:3pt 0 0;color:rgba(255,255,255,.78);font-size:9.5pt}
+.grid{flex:1;display:flex;flex-wrap:wrap;padding:6mm 10mm 0;gap:4mm 5mm;align-content:flex-start}
+.panel{width:calc(50% - 2.5mm);border-top:2.5pt solid var(--acc);padding-top:3pt}
+.panel.wide{width:100%}
+.panel h2{font-weight:700;margin:1pt 0 3pt;font-size:12.5pt;display:flex;align-items:baseline;gap:6pt}
+.panel h2 span{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;color:var(--acc);font-weight:700}
+.panel p{margin:0 0 2.5pt;font-size:8.6pt;line-height:1.38}
+.panel.wide .cols{display:flex;gap:5mm}
+.panel.wide .cols>div{flex:1}
+.bottom{display:flex;gap:5mm;padding:3.5mm 10mm 5mm;border-top:.6pt solid var(--rule);margin:3mm 10mm 0}
+.bottom>div{flex:1}
+.bottom h3{font-family:var(--mono);font-size:7.2pt;letter-spacing:.14em;text-transform:uppercase;margin:0 0 2pt;font-weight:700}
+.bottom p{font-size:8.8pt;line-height:1.38}
+.foot{padding:2mm 10mm 6mm;display:flex;justify-content:space-between;font-family:var(--mono);font-size:7pt;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
+</style></head><body>
+<div class="page">
+<div class="top">
+<div class="kicker">The Moves Deck · Desk card</div>
+<h1>Every card. <em>Every line.</em></h1>
+<p>The whole deck on one page. Pin it up; the lines do the remembering.</p>
+</div>
+<div class="grid"><div class="panel" style="--acc:#8A6A1F">
+<h2><span>01</span>Orchestrate</h2>
+<p><b>You are the orchestrator</b> — <i>You are the orchestrator.</i></p><p><b>The carry pattern</b> — <i>Every arrow is a copy and paste by a person. That is not a bug. That is control.</i></p><p><b>The context pre-flight</b> — <i>Know what it can see before you trust what it says.</i></p><p><b>Choose the source</b> — <i>It finds what you can reach, not what is right.</i></p><p><b>Context discipline</b> — <i>A drifting chat is a mis-brief in progress.</i></p><p><b>Chain the work</b> — <i>Check the final output against the source, not against the chat.</i></p>
+</div><div class="panel" style="--acc:#2F6B5E">
+<h2><span>02</span>Brief</h2>
+<p><b>RTCF</b> — <i>Context does most of the work. Paste the source rather than describing it.</i></p><p><b>The upgrades</b> — <i>Add an upgrade before you rewrite.</i></p><p><b>The CHECK and NEVER lines</b> — <i>The CHECK and NEVER lines are where your judgement lives.</i></p><p><b>The gap check</b> — <i>Ask what it couldn&#x27;t find, not just what it found.</i></p><p><b>The batch brief</b> — <i>One brief, numbered steps, and it waits for you.</i></p><p><b>The critique prompt</b> — <i>The critique is useful. The rewrite is yours.</i></p>
+</div><div class="panel" style="--acc:#B54A36">
+<h2><span>03</span>Catch It</h2>
+<p><b>The sycophancy demonstration</b> — <i>The prompt changed the audience, not the facts.</i></p><p><b>Catch it without the tool</b> — <i>Are you sure?&quot; is not a check.</i></p><p><b>The markers are not a guarantee</b> — <i>The markers catch the guesses it knows about.</i></p><p><b>The five-line send check</b> — <i>Press Send yourself.</i></p><p><b>The numbers check</b> — <i>A plausible rate is worse than a blank cell.</i></p><p><b>Fluency is not evidence</b> — <i>Treat every output as a draft by an unknown author.</i></p>
+</div><div class="panel" style="--acc:#4E5D6B">
+<h2><span>04</span>Workflow</h2>
+<p><b>The three-question qualifier</b> — <i>If nobody can name the check, the workflow is not ready.</i></p><p><b>The five-step map</b> — <i>Map the workflow before you brief the tool.</i></p><p><b>Save the brief</b> — <i>The saved brief is the workflow&#x27;s memory.</i></p><p><b>Do it twice first</b> — <i>Automate the typing, not the thinking.</i></p><p><b>An agent is a brief that remembers</b> — <i>An agent is a brief that remembers.</i></p><p><b>The oversight cycle</b> — <i>The agent saves clicks, not judgement.</i></p>
+</div><div class="panel" style="--acc:#6B4E5F">
+<h2><span>05</span>Protect</h2>
+<p><b>Prompt, process, protect</b> — <i>Prompt it on safe material. Process it in the governed tool. Protect it behind checkpoints.</i></p><p><b>Before you paste</b> — <i>Only put in the assistant what you would put in an approved work system.</i></p><p><b>A checkpoint, not a ban</b> — <i>High risk means a named human checkpoint, not a ban.</i></p>
+</div><div class="panel" style="--acc:#8A6A1F">
+<h2><span>06</span>Commit</h2>
+<p><b>Two or three tasks</b> — <i>Two or three tasks with a checkpoint beat forty with none.</i></p><p><b>One thing to stop</b> — <i>One thing you will stop doing — the habit that no longer earns its keep.</i></p><p><b>The four-week follow-up</b> — <i>The tools will change. The habit will not.</i></p>
+</div><div class="panel wide" style="--acc:#4A6E62">
+<h2><span>07</span>Where It Lives</h2>
+<div class="cols"><p><b>Copilot (Microsoft 365)</b> — <i>The surface decides what it sees. Ask.</i></p><p><b>ChatGPT</b> — <i>Memory remembers. Decide what it should remember.</i></p><p><b>Claude</b> — <i>Projects are rooms. What&#x27;s in one room stays there.</i></p><p><b>Gemini</b> — <i>Check which Gemini you&#x27;re talking to.</i></p><p><b>NotebookLM</b> — <i>It only knows what you gave it. That&#x27;s the feature and the limit.</i></p><p><b>The family</b> — <i>Same moves. Different home.</i></p></div>
+</div></div>
+<div class="bottom"><div><h3>The orchestrator</h3><p>You decide what it sees, what it keeps, and what goes out. The tool drafts; the name on the email is yours.</p></div><div><h3>Prompt, process, protect</h3><p>Prompt it on safe material. Process it in the governed tool. Protect it behind checkpoints.</p></div><div><h3>The two questions</h3><p>What do we already do that could be faster? What could we never do until now?</p></div></div>
+<div class="foot"><span>You are the orchestrator.</span><span>Free to print and share · not for resale</span></div>
+</div></body></html>
