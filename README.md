@@ -1,5 +1,9 @@
 # The Moves Deck
 
+<p align="center">
+  <img src="assets/art/banner.png" alt="The Moves Deck" width="720">
+</p>
+
 Thirty-six moves for working with any AI assistant at work. Distilled from the
 Copilot in Practice courses and deliberately de-vendored — the family parent:
 the same moves, whatever the badge on the app. Free product: no gate, no capture.
